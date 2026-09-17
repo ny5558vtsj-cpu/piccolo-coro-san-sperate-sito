@@ -19,6 +19,6 @@
 </header>
 <?php
 function piccolo_coro_fallback_menu() {
-    echo '<ul class="main-menu"><li><a href="' . esc_url(home_url('/#chi-siamo')) . '">Chi siamo</a></li><li><a href="' . esc_url(home_url('/#cori')) . '">I cori</a></li><li><a href="' . esc_url(get_post_type_archive_link('evento')) . '">Eventi</a></li><li><a href="' . esc_url(home_url('/#contatti')) . '">Contatti</a></li></ul>';
+    echo '<ul class="main-menu"><li><a href="' . esc_url(home_url('/#chi-siamo')) . '">Chi siamo</a></li><li><a href="' . esc_url(home_url('/#cori')) . '">I cori</a></li><li><a href="' . esc_url(get_post_type_archive_link('evento')) . '">Eventi</a></li><li><a href="' . esc_url(home_url('/gestionale/')) . '">Gestionale</a></li><li><a href="' . esc_url(home_url('/#contatti')) . '">Contatti</a></li></ul>';
 }
 ?>
